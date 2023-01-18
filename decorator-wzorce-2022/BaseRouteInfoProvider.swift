@@ -1,8 +1,7 @@
-//
-//  BaseRouteInfoProvider.swift
-//  decorator-wzorce-2022
-//
-//  Created by Bartosz on 18/01/2023.
-//
-
 import Foundation
+
+class BaseRouteInfoProvider : RouteInfoProvider {
+    func provideRouteInfo(kilometers: Float) {
+        print("Cena trasy wyniesie \(round(kilometers*Float.random(in: 1.5...5)*100)/100)")
+    }
+}
