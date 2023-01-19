@@ -12,6 +12,8 @@
 		18FA77202977E70F00184201 /* BaseRouteInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA771F2977E70F00184201 /* BaseRouteInfoProvider.swift */; };
 		18FA77222977EB3D00184201 /* InputHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA77212977EB3D00184201 /* InputHandler.swift */; };
 		18FA77242977F60800184201 /* FreeRouteInfoProviderDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA77232977F60800184201 /* FreeRouteInfoProviderDecorator.swift */; };
+		18FA7728297947D400184201 /* SmallCompanyRouteInfoProviderDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA7727297947D400184201 /* SmallCompanyRouteInfoProviderDecorator.swift */; };
+		18FA772A2979499600184201 /* EnterpriseRouteInfoProviderDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA77292979499600184201 /* EnterpriseRouteInfoProviderDecorator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +35,8 @@
 		18FA771F2977E70F00184201 /* BaseRouteInfoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouteInfoProvider.swift; sourceTree = "<group>"; };
 		18FA77212977EB3D00184201 /* InputHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputHandler.swift; sourceTree = "<group>"; };
 		18FA77232977F60800184201 /* FreeRouteInfoProviderDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeRouteInfoProviderDecorator.swift; sourceTree = "<group>"; };
+		18FA7727297947D400184201 /* SmallCompanyRouteInfoProviderDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCompanyRouteInfoProviderDecorator.swift; sourceTree = "<group>"; };
+		18FA77292979499600184201 /* EnterpriseRouteInfoProviderDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterpriseRouteInfoProviderDecorator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 				18FA771F2977E70F00184201 /* BaseRouteInfoProvider.swift */,
 				18FA77212977EB3D00184201 /* InputHandler.swift */,
 				18FA77232977F60800184201 /* FreeRouteInfoProviderDecorator.swift */,
+				18FA7727297947D400184201 /* SmallCompanyRouteInfoProviderDecorator.swift */,
+				18FA77292979499600184201 /* EnterpriseRouteInfoProviderDecorator.swift */,
 			);
 			path = "decorator-wzorce-2022";
 			sourceTree = "<group>";
@@ -132,10 +138,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FA772A2979499600184201 /* EnterpriseRouteInfoProviderDecorator.swift in Sources */,
 				18FA771E2977E53D00184201 /* RouteInfoProvider.swift in Sources */,
 				18FA77172977DD1600184201 /* main.swift in Sources */,
 				18FA77242977F60800184201 /* FreeRouteInfoProviderDecorator.swift in Sources */,
 				18FA77202977E70F00184201 /* BaseRouteInfoProvider.swift in Sources */,
+				18FA7728297947D400184201 /* SmallCompanyRouteInfoProviderDecorator.swift in Sources */,
 				18FA77222977EB3D00184201 /* InputHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

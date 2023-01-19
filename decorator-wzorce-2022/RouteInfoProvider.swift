@@ -1,5 +1,5 @@
 import Foundation
 
 protocol RouteInfoProvider {
-    func provideRouteInfo(kilometers: Float)
+    func provideRouteInfo(kilometers: Float)  -> Float
 }

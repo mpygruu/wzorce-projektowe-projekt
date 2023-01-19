@@ -15,11 +15,11 @@ if subscriptionType == "F" {
 }
 //Small company
 else if subscriptionType == "S" {
-    
+    decorated = SmallCompanyRouteInfoProviderDecorator(routeInfoProvider: routeInfoProvider)
 }
 //Enterprise
 else if subscriptionType == "E" {
-    
+    decorated = EnterpriseRouteInfoProviderDecorator(routeInfoProvider: routeInfoProvider)
 }
 
 
